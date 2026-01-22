@@ -35,7 +35,7 @@ export function DashboardProvider({ children }: { children: ReactNode }) {
           activities: [
             {
               id: crypto.randomUUID(),
-              message: "New intake submitted",
+              message: "New transaction received",
               time: new Date().toLocaleTimeString(),
             },
             ...prev.activities.slice(0, 4),

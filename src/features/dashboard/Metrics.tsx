@@ -32,26 +32,26 @@ export function Metrics() {
       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
     >
       <KpiCard
-        label="Total Intakes"
+        label="Total Transactions"
         value={totalIntakes}
         delta={totalIntakesDelta}
         status={totalIntakesDelta > 0 ? "good" : "warning"}
         sub="All time"
       />
       <KpiCard
-        label="New Today"
+        label="Transactions Today"
         value={newIntakesToday}
         status={newIntakesToday > 0 ? "good" : "warning"}
       />
       <KpiCard
-        label="Unread Alerts"
+        label="Unresolved Alerts"
         value={unreadCount}
         status={unreadCount > 0 ? "critical" : "good"}
       />
       <KpiCard
-        label="Last Activity"
+        label="Last System Event"
         value={lastActivity}
-        sub="Most recent event"
+        sub="Security / Ops"
       />
     </div>
   );

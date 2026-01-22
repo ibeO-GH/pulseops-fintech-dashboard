@@ -13,7 +13,7 @@ export const IntakeTrendChart = memo(function IntakeTrendChart() {
   if (series.length < 2) {
     return (
       <div className="bg-white p-4 rounded shadow-sm">
-        <h3 className="text-sm font-semibold mb-2">Intake Trend</h3>
+        <h3 className="text-sm font-semibold mb-2">Transaction Volume Trend</h3>
         <p className="text-sm text-gray-500">
           Not enough data to show intake trends yet.
         </p>
