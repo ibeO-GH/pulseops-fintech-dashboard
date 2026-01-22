@@ -16,7 +16,7 @@ export default function Dashboard() {
       <DashboardProvider>
         <DashboardTour />
         <DashboardErrorBoundary>
-          <div className="space-y-6">
+          <div className="space-y-6 bg-slate-50 min-h-screen p-6">
             <div className="flex justify-end gap-2">
               <ResetTourButton />
               <ExportMetricsButton />

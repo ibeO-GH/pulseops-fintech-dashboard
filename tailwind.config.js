@@ -5,4 +5,12 @@ export default {
     extend: {},
   },
   plugins: [],
+  safelist: [
+    "text-emerald-600",
+    "text-amber-600",
+    "text-rose-600",
+    "bg-slate-50",
+    "bg-white",
+    "border-slate-200",
+  ],
 };

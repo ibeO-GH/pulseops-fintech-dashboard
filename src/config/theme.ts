@@ -1,15 +1,19 @@
 export const fintechTheme = {
-  colors: {
-    primary: "indigo",
-    success: "emerald",
-    warning: "amber",
-    danger: "rose",
+  brand: {
+    primary: "emerald",
+    secondary: "slate",
+    accent: "cyan",
+  },
 
-    background: "slate",
-    surface: "white",
-    text: {
-      primary: "gray-900",
-      secondary: "gray-500",
-    },
+  status: {
+    good: "emerald",
+    warning: "amber",
+    critical: "rose",
+  },
+
+  surface: {
+    card: "bg-white",
+    page: "bg-slate-50",
+    border: "border-slate-200",
   },
 };
