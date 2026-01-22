@@ -19,9 +19,9 @@ export function Insights() {
       )}
 
       {newIntakesToday > 0 ? (
-        <p>📥 {newIntakesToday} new intake submitted today</p>
+        <p>📥 {newIntakesToday} new transaction received today</p>
       ) : (
-        <p>📭 No new intakes today</p>
+        <p>📭 No new transactions today</p>
       )}
 
       {unreadCount === 0 && newIntakesToday === 0 && (
