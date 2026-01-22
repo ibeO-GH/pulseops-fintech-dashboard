@@ -1,16 +1,15 @@
-import { INDUSTRY } from "./industry";
-
-export const theme = {
-  fintech: {
-    primary: "blue",
-    accent: "emerald",
-  },
-  health: {
-    primary: "teal",
-    accent: "green",
-  },
-  saas: {
+export const fintechTheme = {
+  colors: {
     primary: "indigo",
-    accent: "purple",
+    success: "emerald",
+    warning: "amber",
+    danger: "rose",
+
+    background: "slate",
+    surface: "white",
+    text: {
+      primary: "gray-900",
+      secondary: "gray-500",
+    },
   },
-}[INDUSTRY];
+};
