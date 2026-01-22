@@ -10,7 +10,7 @@ type Props = {
 
 export function KpiCard({ label, value, sub, delta, status = "good" }: Props) {
   return (
-    <div className={`p-4 rounded-2xl shadow-sm ${themeClasses.card}`}>
+    <div className={`bg-white p-4 shadow-sm ${themeClasses.card}`}>
       <p className="text-xs text-gray-500">{label}</p>
       <p className="text-2xl font-semibold">{value}</p>
 

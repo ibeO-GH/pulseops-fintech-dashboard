@@ -10,7 +10,7 @@ export function Insights() {
   return (
     <div
       data-tour="insights"
-      className="bg-blue-950/80 p-4 rounded-2xl shadow-sm space-y-2 text-sm text-white border-1-4 border-blue-500"
+      className="bg-blue-950/80 p-4 shadow-sm space-y-2 text-sm text-white border-1-4 border-blue-500"
     >
       {unreadCount > 0 ? (
         <p>🔔 You have {unreadCount} unread notifications</p>

@@ -29,7 +29,7 @@ export default function ActivityFeed() {
   if (role !== "admin") return null;
 
   return (
-    <div data-tour="activity" className="bg-white p-4 rounded-2xl shadow mt-1">
+    <div data-tour="activity" className="bg-white p-4 shadow mt-1">
       <div className="flex items-center justify-between mb-3">
         <h3 className="font-semibold text-sm">System Activity</h3>
         <ExportButton label="Export CSV" onClick={exportActivities} />
